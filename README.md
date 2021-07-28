@@ -68,3 +68,8 @@ This is an Object Oriented project, so use JavaScript Classes to implement the f
     - `updatePrincipal()` which updates the `principal` value to the function't input string
     - `changeMascot()` which updates the `mascot` to the input value
     - `downsize()` which removes an `IndividualClass` from a given `Teacher`. The students in the downsized class should be distributed evenly amongst the remaining classes in the grade.
+
+## Stretch Goals
+* Use `Jest` mocks to mock the constructor method of the ES6 classes you wrote
+* Create a `District` class that maintains multiple schools and can calculate school and district-wide averages, close down schools if enrollment numbers aren't high enough, and has a `superintendent`.
+* Implement some concept of time so each `District` and its `School`s can experience annual growth changes. If numbers for any school, grade, or class get low enough, students and teachers should be shuffled around to be evenly distributed amongst the other classes/schools. No teacher should have more than a 25:1 ratio of students to teachers.
