@@ -1,0 +1,25 @@
+{
+  "name": "sdi-blended-workshop-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest /test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/sdi-blended-workshop-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/sdi-blended-workshop-tdd/issues"
+  },
+  "homepage": "https://github.com/gSchool/sdi-blended-workshop-tdd#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
