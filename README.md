@@ -19,6 +19,8 @@ This is an Object Oriented project, so use JavaScript Classes to implement the f
 
 ## Project Specs
 
+You should be following the rules of TDD throughout this project. Before working on a new class or feature, make sure you write a test that will provide coverage for the code you want to write.
+
 ### Create a `Teacher` class
     - This class has `name` (string), `subjectTaught` (string), `universityAttended` (string), `yearsAsTeacher` (num) properties
     - This class has methods:
