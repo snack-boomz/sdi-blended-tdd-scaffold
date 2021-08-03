@@ -56,6 +56,7 @@ You should be following the rules of TDD throughout this project. Before working
     - This class has methods:
       - `getStudentCount()` which returns the total number of students in all the classes of the `Grade`
       - `calculateGradeAverage()` which returns the average of all test scores for all `Student`s in the `Grade`
+      - `addIndividualClass()` which adds an `IndividualClass` to the `individualClasses` array
 
 ### Create a `School` class
   - This class has `name` (sring), `location` (string), `gradeLevels` (array of numbers, kingergarten being 0), `numberOfStudents` (number), `numberOfTeachers` (number), `teachers` (array of `Teacher`s), `principal` (string), `grades` (array of `Grade`'s), and `mascot` properties
@@ -65,8 +66,8 @@ You should be following the rules of TDD throughout this project. Before working
     - `updateGradeLevels()` which takes in an array of `gradeLevels` which replaces the schools' existing `gradeLevels` property
     - `removeStudents()` which removes a given # of students from the `numberOfStudents`
     - `addStudents()` which adds a given # of students to the `numberOfStudents`
-    - `removeTeachers()` which removes a given teacher from the `teachers` array and decrements the `numberOfTeachers` property
-    - `addTeachers()` which adds a given teacher to the `teachers` array and incremenets the `numberOfTeachers` property
+    - `removeTeacher()` which removes a given teacher from the `teachers` array and decrements the `numberOfTeachers` property
+    - `addTeacher()` which adds a given teacher to the `teachers` array and incremenets the `numberOfTeachers` property
     - `updatePrincipal()` which updates the `principal` value to the function't input string
     - `changeMascot()` which updates the `mascot` to the input value
     - `downsize()` which removes an `IndividualClass` from a given `Teacher`. The students in the downsized class should be distributed evenly amongst the remaining classes in the grade.
